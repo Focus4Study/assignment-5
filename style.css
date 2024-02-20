@@ -1,0 +1,86 @@
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.btn-classic {
+    background-color: #1dd1001A;
+    border: 1px solid #1dd10066;
+    border-radius: 12px;
+    padding: 0rem 1.875rem;
+}
+
+.btn-alternative {
+    border: 1px solid #1DD100;
+    background-color: #1DD100;
+    color: white;
+    border-radius: 12px;
+}
+
+.btn-seat {
+    border: 1px solid #F7F8F8;
+    background-color: #F7F8F8;
+    color: grey;
+    border-radius: 12px;
+
+}
+
+@media (min-width: 1024px) {
+    .btn-seat, .btn-alternative {
+        padding: 0px 1.85rem;
+    }
+  }
+
+.table-layout{
+    display: grid;
+    grid-template-columns: 3;
+    text-align: center;
+    column-gap: 24rem;
+}
+
+.row-style {
+    display: flex;
+    gap: 10rem;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
